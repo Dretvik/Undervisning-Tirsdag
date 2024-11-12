@@ -13,9 +13,32 @@
         <p class="paragraphStyle">Dette er en paragraf</p>
         <span style="background-color: violet;">Dette er en span tag</span>
         <br>
-        <button class="buttons">Dette er en knapp</button>
+        <button onclick="buttonClick()" class="buttons">Dette er en knapp</button>
+        <ul class="list">
+            <li>Stæsj 1</li>
+            <li>Stæsj 2</li>
+            <li>Stæsj 3</li>
+            <li>Stæsj 4</li>
+        </ul>
+        <ol>
+            <li>Stæsj 1</li>
+            <li>Stæsj 2</li>
+            <li>Stæsj 3</li>
+            <li>Stæsj 4</li>
+        </ol>
+        <img src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAyL3Jhd3BpeGVsb2ZmaWNlMTJfY3V0ZV9kb2dfZHJlYW15X3dhbGxwYXBlcl9wbGF5aW5nX2NhcnRvb25faWxsdV8xNjAxNzE1OC04NTcyLTQyM2MtYTk0MS1hMmJhZTRkMzJiODJfMS5qcGc.jpg"/>
     </div>
     
-    
+    <script>
+        function buttonClick(){
+            let num1 = 7;
+            let num2 = 7;
+
+            let sum = num1 + num2;
+
+            // alert(num1 +"+" + num2 + "=" + sum);
+            alert(`${num1} + ${num2} = ${sum}`);
+        }
+    </script>
 </body>
 </html>

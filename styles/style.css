@@ -8,6 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    /* background: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAyL3Jhd3BpeGVsb2ZmaWNlMTJfY3V0ZV9kb2dfZHJlYW15X3dhbGxwYXBlcl9wbGF5aW5nX2NhcnRvb25faWxsdV8xNjAxNzE1OC04NTcyLTQyM2MtYTk0MS1hMmJhZTRkMzJiODJfMS5qcGc.jpg)  ; */
     /* Dette er en kommentar i CSS */
 }
 #container {
@@ -19,7 +20,19 @@ p.paragraphStyle {
     border: 3px dotted black;
 }
 .buttons {
-    color: white;
+    /* color: white;
     background-color: lightslategray;
-    border: none;
+    border: none; */
+    cursor: pointer;
+}
+.list {
+    list-style:inside;
+    /* display: flex;
+    flex-direction: row; */
+}
+img {
+    position:fixed;
+    width: 200px;
+    top: 20px;
+    right: 20px;
 }
